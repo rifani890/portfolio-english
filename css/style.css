@@ -74,6 +74,27 @@ section{
     border-bottom: .1rem solid #fff4;
     color:#fff;
 }
+.heading-top{
+    text-align: center;
+    margin:0 2rem;
+    font-size: 4rem;
+    padding:0;
+    border-top: .1rem solid #fff4;
+    color:#fff;
+}
+.heading-top .sosmed{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+svg{
+    fill: white;
+}
+svg:hover{
+    fill: yellow;
+}
 
 .heading span{
     color:var(--yellow);
@@ -371,6 +392,11 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+.contact .container{
+    width: auto;
+    border-top: #f9ca24;
+    padding-top: 10px;
+}
 
 
 
