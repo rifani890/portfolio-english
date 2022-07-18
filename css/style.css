@@ -87,7 +87,7 @@ section{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding:2rem 0;
+    padding:1rem 0;
 }
 svg{
     fill: white;
@@ -195,7 +195,12 @@ header .navbar ul li a:hover{
     color:#eee;
     padding: 1rem 0;
 }
-
+.home .skil{
+    padding: 22px 0;
+}
+.home .skil-list a{
+    margin-right: 11px;
+}
 .about .row{
     display: flex;
     align-items: center;
@@ -227,8 +232,9 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 2rem;
+    color: wheat;
 }
-
 .about .row .counter .box{
     width:20rem;
     background:#222;
