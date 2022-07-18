@@ -87,7 +87,11 @@ section{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+<<<<<<< HEAD
     padding:1rem 0;
+=======
+    padding:0.5rem 0;
+>>>>>>> 9d3c2d22175a4ef9ad12b7718fadfaf38217d9a0
 }
 svg{
     fill: white;
